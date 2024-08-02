@@ -226,20 +226,27 @@ Things to take a look at now:
 
 * After all that, we're ready to do start some serious
   business with our MB2. It's way easier the second time
+
+## Bonus: BSP
 
-* Some information to go on with:
+* `microbit-v2` Board Support Package (crate) provides
+  cleaner fancier interfaces
 
-  * <https://docs.rust-embedded.org/> Base place for Rust
-    Embedded WG resources
+* Let's use the "blocking display" interface (`examples/bsp.el`)
+
+## Resources
 
-  * <https://github.com/rust-embedded/discovery-mb2> The
-    "new" not-yet-debugged not-yet-fully-published MB2 book
+* <https://docs.rust-embedded.org/> Base place for Rust
+  Embedded WG resources
 
-  * <https://tech.microbit.org/> Lots of tech information
-    for MB2
+* <https://github.com/rust-embedded/discovery-mb2> The
+  "new" not-yet-debugged not-yet-fully-published MB2 book
 
-  * <https://github.com/pdx-cs-rust-embedded> Many of my examples
-    in various states of repair and usefulness
+* <https://tech.microbit.org/> Lots of tech information
+  for MB2
+
+* <https://github.com/pdx-cs-rust-embedded> Many of my examples
+  in various states of repair and usefulness
 
 ## Acknowledgements
 
