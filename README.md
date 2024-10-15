@@ -2,8 +2,10 @@
 
 This repo contains the notes (`inordinate.p.md`) and
 materials (everything else) for my talk "An Inordinate
-Display: "Blinky" In Embedded Rust. This talk was delivered
-at the PDX Rust Meetup 1 August 2024.
+Display: "Blinky" In Embedded Rust.
+
+(This talk was first delivered at the PDX Rust Meetup 1
+August 2024.)
 
 ## Running This Code
 
@@ -12,7 +14,7 @@ at the PDX Rust Meetup 1 August 2024.
       rustup target add thumbv7em-none-eabihf
       rustup component add llvm-tools
       cargo install cargo-binutils
-      cargo install --force probe-rs-tools
+      cargo install --force --locked probe-rs-tools
 
   (The `--force` is in case you have an old version of
   `probe-rs`: the tools and installation instructions have

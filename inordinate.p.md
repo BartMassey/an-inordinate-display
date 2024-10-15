@@ -3,8 +3,6 @@
 "Blinky" In Embedded Rust
 
 Bart Massey <bart.massey@gmail.com>
-PDX Rust Meetup
-2024-08-01
 
 ## Embedded
 
@@ -83,7 +81,7 @@ PDX Rust Meetup
   
 * We will follow
   <https://github.com/rust-embedded/discovery-mb2>
-  which I am just finishing a big revision of
+  which I just finished a big revision of
 
   Specifically, the "Hello World" chapter does blinky
 
@@ -124,7 +122,11 @@ PDX Rust Meetup
   * You supply things Rust `core` (but not `std`) needs to
     be able to work
 
-* But ofc our framework will do these things: `examples/tiny.rs`
+* See <https://github.com/pdx-cs-rust-embedded/nostd-rs> for
+  an os-based version of this
+
+* See `examples/no-std.rs` for our framework
+
 
 ## Infrastructure
 
